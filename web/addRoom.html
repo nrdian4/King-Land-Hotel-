@@ -1,0 +1,43 @@
+<head>
+    <title></title>
+    <link rel="stylesheet" href="adminPage/css/dashcss.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        .scrollable-container {
+            max-height: 600px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrollable-container">
+        <div class="formbold-main-wrapper">
+            <div class="formbold-form-wrapper">
+                <form action="bookPage.html" method="POST">
+                    <div class="formbold-mb-3">
+                        <label for="roomId" class="formbold-form-label">Room ID</label>
+                        <input type="text" name="roomId" id="roomId" class="formbold-form-input" />
+                    </div>
+                    <div class="formbold-mb-3">
+                        <label for="roomName" class="formbold-form-label">Room Name</label>
+                        <input type="text" name="roomName" id="roomName" class="formbold-form-input" />
+                    </div>
+                    
+
+                    <div class="formbold-mb-3">
+                        <label for="numOfPax" class="formbold-form-label">Number of Pax</label>
+                        <input type="number" name="numOfPax" id="numOfPax" class="formbold-form-input" />
+                    </div>
+
+                    <div class="formbold-mb-3">
+                        <label for="price" class="formbold-form-label">Price of room</label>
+                        <input type="text" name="price" id="price" class="formbold-form-input" />
+                    </div>
+
+                    <button class="formbold-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
