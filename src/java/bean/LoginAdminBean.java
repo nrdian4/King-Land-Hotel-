@@ -1,34 +1,34 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package bean;
-import java.io.Serializable;
 
-public class LoginAdminBean implements Serializable {
+/**
+ *
+ * @author HP SmartUser
+ */
+public class LoginAdminBean 
+{
     private String adminUsername;
     private String adminPassword;
 
-    // Default constructor
     public LoginAdminBean() {
     }
-
-    // Getter and setter methods for the adminUsername
-    public String getAdminUsername() {
-        return adminUsername;
-    }
-
+    
     public LoginAdminBean(String adminUsername, String adminPassword) {
         this.adminUsername = adminUsername;
         this.adminPassword = adminPassword;
     }
 
-    public void setAdminUsername(String adminUsername) {
-        this.adminUsername = adminUsername;
+    public String getAdminUsername() {
+        return adminUsername;
     }
 
-    // Getter and setter methods for the adminPassword
     public String getAdminPassword() {
         return adminPassword;
     }
-
-    public void setAdminPassword(String adminPassword) {
-        this.adminPassword = adminPassword;
-    }
+    
+    
 }

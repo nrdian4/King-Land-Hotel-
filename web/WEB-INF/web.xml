@@ -1,20 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>regCustomer</servlet-name>
-        <servlet-class>regCustomer</servlet-class>
+        <servlet-name>bookCustServlet</servlet-name>
+        <servlet-class>controller.bookCustServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>loginAdminServlet</servlet-name>
-        <servlet-class>controller.loginAdminServlet</servlet-class>
+        <servlet-name>LoginAdminServlet</servlet-name>
+        <servlet-class>controller.LoginAdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginCustServlet</servlet-name>
+        <servlet-class>controller.LoginCustServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogoutAdminServlet</servlet-name>
+        <servlet-class>controller.LogoutAdminServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogoutCustServlet</servlet-name>
+        <servlet-class>controller.LogoutCustServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegCustServlet</servlet-name>
+        <servlet-class>controller.RegCustServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddRoomServlet</servlet-name>
+        <servlet-class>controller.AddRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteRoomServlet</servlet-name>
+        <servlet-class>controller.DeleteRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateRoomServlet</servlet-name>
+        <servlet-class>controller.UpdateRoomServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddBookServlet</servlet-name>
+        <servlet-class>controller.AddBookServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddCustServlet</servlet-name>
+        <servlet-class>controller.AddCustServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteBookServlet</servlet-name>
+        <servlet-class>controller.DeleteBookServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteCustServlet</servlet-name>
+        <servlet-class>controller.DeleteCustServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateBookServlet</servlet-name>
+        <servlet-class>controller.UpdateBookServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateCustServlet</servlet-name>
+        <servlet-class>controller.UpdateCustServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>regCustomer</servlet-name>
-        <url-pattern>/regCustomer</url-pattern>
+        <servlet-name>bookCustServlet</servlet-name>
+        <url-pattern>/bookCustServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>loginAdminServlet</servlet-name>
-        <url-pattern>/loginAdminServlet</url-pattern>
+        <servlet-name>LoginAdminServlet</servlet-name>
+        <url-pattern>/LoginAdminServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginCustServlet</servlet-name>
+        <url-pattern>/LoginCustServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutAdminServlet</servlet-name>
+        <url-pattern>/LogoutAdminServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutCustServlet</servlet-name>
+        <url-pattern>/LogoutCustServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegCustServlet</servlet-name>
+        <url-pattern>/RegCustServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddRoomServlet</servlet-name>
+        <url-pattern>/AddRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteRoomServlet</servlet-name>
+        <url-pattern>/DeleteRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateRoomServlet</servlet-name>
+        <url-pattern>/UpdateRoomServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddBookServlet</servlet-name>
+        <url-pattern>/AddBookServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddCustServlet</servlet-name>
+        <url-pattern>/AddCustServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteBookServlet</servlet-name>
+        <url-pattern>/DeleteBookServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteCustServlet</servlet-name>
+        <url-pattern>/DeleteCustServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateBookServlet</servlet-name>
+        <url-pattern>/UpdateBookServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateCustServlet</servlet-name>
+        <url-pattern>/UpdateCustServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
